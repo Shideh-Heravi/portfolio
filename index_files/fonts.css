@@ -1,0 +1,1489 @@
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Roboto-Thin.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Roboto-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 200;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Roboto-Thin-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Roboto-Thin-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  src: url('https://carbon-media.accelerator.net/fonts/Roboto-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Roboto-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Roboto-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Roboto-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Roboto-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Roboto-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Roboto-Regular-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Roboto-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Roboto-Medium.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Roboto-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Roboto-Medium-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Roboto-Medium-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Roboto-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Roboto-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Roboto-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Roboto-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 800;
+  src: url('https://carbon-media.accelerator.net/fonts/Roboto-Black.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Roboto-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Roboto-Black-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Roboto-Black-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  src: url('https://carbon-media.accelerator.net/fonts/Open-Sans-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Open-Sans-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Open-Sans-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Open-Sans-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Open-Sans-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Open-Sans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Open-Sans-Regular-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Open-Sans-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Open-Sans-Semi-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Open-Sans-Semi-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Open-Sans-Semi-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Open-Sans-Semi-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Open-Sans-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Open-Sans-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Open-Sans-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Open-Sans-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  src: url('https://carbon-media.accelerator.net/fonts/Open-Sans-Extra-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Open-Sans-Extra-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Open-Sans-Extra-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Open-Sans-Extra-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Lato-Thin.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Lato-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 200;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Lato-Thin-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Lato-Thin-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 300;
+  src: url('https://carbon-media.accelerator.net/fonts/Lato-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Lato-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 300;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Lato-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Lato-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Lato-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Lato-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Lato-Regular-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Lato-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Lato-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Lato-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 600;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Lato-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Lato-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 800;
+  src: url('https://carbon-media.accelerator.net/fonts/Lato-Black.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Lato-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 800;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Lato-Black-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Lato-Black-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Thin.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Thin-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Thin-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Extra-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Extra-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Extra-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Extra-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Regular-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Medium.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Medium-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Medium-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Semi-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Semi-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Semi-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Semi-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Extra-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Extra-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Extra-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Extra-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Black.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Montserrat-Black-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Montserrat-Black-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Playfair-Display-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Playfair-Display-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Playfair-Display-Regular-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Playfair-Display-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Playfair-Display-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 600;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Playfair-Display-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Playfair-Display-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 800;
+  src: url('https://carbon-media.accelerator.net/fonts/Playfair-Display-Black.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Playfair-Display-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 800;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Playfair-Display-Black-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Playfair-Display-Black-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Nanum-Gothic-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Nanum-Gothic-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Nanum-Gothic-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Nanum-Gothic-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-weight: 700;
+  src: url('https://carbon-media.accelerator.net/fonts/Nanum-Gothic-Extra-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Nanum-Gothic-Extra-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Thin.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 200;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Thin-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Thin-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Extra-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Extra-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 200;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Extra-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Extra-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 300;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 300;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Regular-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Medium.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Medium-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Medium-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Semi-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Semi-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Semi-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Semi-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 600;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 700;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Extra-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Extra-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 700;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Extra-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Extra-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 800;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Black.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 800;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Black-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Libre-Franklin-Black-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Francois One';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Francois-One-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Francois-One-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Old Standard TT';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Old-Standard-TT-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Old-Standard-TT-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Old Standard TT';
+  font-weight: 400;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Old-Standard-TT-Regular-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Old-Standard-TT-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Old Standard TT';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Old-Standard-TT-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Old-Standard-TT-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poiret One';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Poiret-One-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Share Tech';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Share-Tech-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Rufina';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Rufina-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Rufina-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Rufina';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Rufina-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Rufina-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Thin.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 200;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Thin-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Thin-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Extra-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Extra-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 200;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Extra-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Extra-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 300;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Regular-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Medium.woff') format('woff'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Medium.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Medium-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Medium-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Semi-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Semi-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Semi-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Semi-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 700;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Extra-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Extra-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Poppins-Extra-Bold-Italic.woff') format('woff'),
+       url('https://carbon-media.accelerator.net/fonts/Poppins-Extra-Bold-Italic.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Work-Sans-Thin.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Work-Sans-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Work-Sans-Extra-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Work-Sans-Extra-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: 300;
+  src: url('https://carbon-media.accelerator.net/fonts/Work-Sans-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Work-Sans-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Work-Sans-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Work-Sans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Work-Sans-Medium.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Work-Sans-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Work-Sans-Semi-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Work-Sans-Semi-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Work-Sans-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Work-Sans-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: 700;
+  src: url('https://carbon-media.accelerator.net/fonts/Work-Sans-Extra-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Work-Sans-Extra-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: 800;
+  src: url('https://carbon-media.accelerator.net/fonts/Work-Sans-Black.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Work-Sans-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Crimson-Text-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Crimson-Text-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-weight: 400;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Crimson-Text-Regular-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Crimson-Text-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Crimson-Text-Semi-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Crimson-Text-Semi-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Crimson-Text-Semi-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Crimson-Text-Semi-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Crimson-Text-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Crimson-Text-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-weight: 600;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Crimson-Text-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Crimson-Text-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Oswald-Extra-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Oswald-Extra-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-weight: 300;
+  src: url('https://carbon-media.accelerator.net/fonts/Oswald-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Oswald-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Oswald-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Oswald-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Oswald-Medium.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Oswald-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Oswald-Semi-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Oswald-Semi-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Oswald-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Oswald-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Cardo';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Cardo-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Cardo-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Cardo';
+  font-weight: 400;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Cardo-Regular-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Cardo-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Cardo';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Cardo-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Cardo-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-weight: 300;
+  src: url('https://carbon-media.accelerator.net/fonts/Quicksand-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Quicksand-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Quicksand-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Quicksand-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Quicksand-Medium.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Quicksand-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Quicksand-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Quicksand-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Abril Fatface';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Abril-Fatface-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Abril-Fatface-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Prata';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Prata-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Prata-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway Dots';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Dots-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Dots-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Thin.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-weight: 200;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Thin-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Thin-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Extra-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Extra-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-weight: 200;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Extra-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Extra-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-weight: 300;
+  src: url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-weight: 300;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-weight: 400;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Regular-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Medium.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Medium-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Medium-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Semi-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Semi-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Semi-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Semi-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-weight: 600;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/IBM-Plex-Sans-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-weight: 300;
+  src: url('https://carbon-media.accelerator.net/fonts/Merriweather-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Merriweather-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-weight: 300;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Merriweather-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Merriweather-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Merriweather-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Merriweather-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Merriweather-Regular-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Merriweather-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Merriweather-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Merriweather-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-weight: 600;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Merriweather-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Merriweather-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-weight: 800;
+  src: url('https://carbon-media.accelerator.net/fonts/Merriweather-Black.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Merriweather-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-weight: 800;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Merriweather-Black-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Merriweather-Black-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Thin.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Extra-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Extra-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 300;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Medium.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Semi-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Semi-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 700;
+  src: ;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 800;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Black.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 200;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Thin-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Thin-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 200;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Extra-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Extra-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 300;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Regular-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Medium-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Medium-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Semi-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Semi-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Extra-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Extra-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 800;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Inter-Black-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Inter-Black-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pathway Gothic One';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Pathway-Gothic-One-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Pathway-Gothic-One-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Thin.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 200;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Thin-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Thin-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Extra-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Extra-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 200;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Extra-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Extra-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 300;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 300;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Light-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Light-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Regular-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Medium.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Medium-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Medium-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Semi-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Semi-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Semi-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Semi-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 700;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Extra-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Extra-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Extra-Bold-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Extra-Bold-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 800;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Black.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-style: italic;
+  src: url('https://carbon-media.accelerator.net/fonts/Raleway-Black-Italic.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Raleway-Black-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Tenor Sans';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Tenor-Sans-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Tenor-Sans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Butler';
+  font-weight: 200;
+  src: url('https://carbon-media.accelerator.net/fonts/Butler-Extra-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Butler-Extra-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Butler';
+  font-weight: 300;
+  src: url('https://carbon-media.accelerator.net/fonts/Butler-Light.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Butler-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Butler';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Butler-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Butler-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Butler';
+  font-weight: 500;
+  src: url('https://carbon-media.accelerator.net/fonts/Butler-Medium.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Butler-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Butler';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Butler-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Butler-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Butler';
+  font-weight: 700;
+  src: url('https://carbon-media.accelerator.net/fonts/Butler-Extra-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Butler-Extra-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Butler';
+  font-weight: 800;
+  src: url('https://carbon-media.accelerator.net/fonts/Butler-Black.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Butler-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Clicker Script';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Clicker-Script-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Clicker-Script-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Amatic SC';
+  font-weight: 400;
+  src: url('https://carbon-media.accelerator.net/fonts/Amatic-SC-Regular.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Amatic-SC-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Amatic SC';
+  font-weight: 600;
+  src: url('https://carbon-media.accelerator.net/fonts/Amatic-SC-Bold.woff2') format('woff2'),
+       url('https://carbon-media.accelerator.net/fonts/Amatic-SC-Bold.woff') format('woff');
+}
+
